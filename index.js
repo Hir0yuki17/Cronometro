@@ -7,7 +7,7 @@ let intervalo;
 
 function start() {
     if (!intervalo){
-         intervalo = setInterval(contador, 10);
+         intervalo = setInterval(contador, 1);
     }
 }
 
