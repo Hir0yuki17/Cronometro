@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('Formula1.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Formula1', Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #3f4547;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.timer {
+    min-width: 400px; 
+	height: 350px;
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #212227;
+    border-radius: 1rem;
+}
+
+.timer h1 {
+    font-size: 5rem;
+    margin: 1rem 0 2rem 0;
+    font-variant-numeric: tabular-nums;
+    color: #ffffff;
+}
+
+.timer button {
+    width: 4.5rem;
+    height: 2.5rem;
+    margin: 1rem .5rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.timer #start {
+    background: #58bc5d;
+}
+
+.timer #pause {
+    background: #777;
+}
+
+.timer #stop {
+    background: #be2d2d;
+}
+
+.timer #lap {
+    background: #3498db; 
+}
+
+.historico {
+    background: #212227;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    min-width: 300px;
+    max-height: 350px;
+    overflow-y: auto; 
+}
+
+.historico h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #555;
+    padding-bottom: 0.5rem;
+}
+
+.historico ul {
+    list-style: none; 
+}
+
+.historico li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-variant-numeric: tabular-nums; 
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    color: #fffdfd;
+}
