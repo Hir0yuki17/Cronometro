@@ -7,12 +7,12 @@ let intervalo;
 
 function start() {
     if (!intervalo){
-         intervalo = setInterval(contador, 10);
+         intervalo = setInterval(contador, 1);
     }
 }
 
 function contador (){
-    milisegundos +=1;
+    milisegundos +=10;
     
     if (milisegundos === 1000){
         milisegundos = 0;
