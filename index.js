@@ -12,7 +12,7 @@ function start() {
 }
 
 function contador (){
-    milisegundos +=10;
+    milisegundos +=1;
     
     if (milisegundos === 1000){
         milisegundos = 0;
