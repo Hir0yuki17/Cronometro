@@ -14,7 +14,7 @@ function start() {
 function contador (){
     milisegundos +=1;
     
-    if (milisegundos === 1000){
+    if (milisegundos === 100){
         milisegundos = 0;
         segundos++;
         if (segundos === 60){
